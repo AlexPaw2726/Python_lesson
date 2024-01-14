@@ -1,4 +1,7 @@
 
+name = input("type number 1234: ")
+
+
 chislo_1 = 1234
 chislo_2 = 1234
 result_1 = chislo_1 // chislo_2
@@ -21,4 +24,3 @@ chislo_7 = 1234
 chislo_8 = 10
 result_4 = chislo_7 % chislo_8
 print(result_4)
-
