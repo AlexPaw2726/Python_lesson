@@ -1,5 +1,6 @@
+chislo_all = input("type number 1234: ")
 
-input("type number 1234: ")
+
 
 
 chislo_1 = 1234
