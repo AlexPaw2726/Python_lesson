@@ -2,7 +2,6 @@ chislo_all = input("type number 1234: ")
 
 
 
-
 chislo_1 = 1234
 chislo_2 = 1234
 result_1 = chislo_1 // chislo_2
