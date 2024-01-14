@@ -6,8 +6,8 @@ print(result_1)
 
 
 chislo_3 = 1234
-chislo_4 = 617
-result_2 = chislo_3 // chislo_4
+chislo_4 = 11
+result_2 = chislo_3 % chislo_4
 print(result_2)
 
 
@@ -18,6 +18,7 @@ print(result_3)
 
 
 chislo_7 = 1234
-chislo_8 = 308
-result_4 = chislo_7 // chislo_8
+chislo_8 = 10
+result_4 = chislo_7 % chislo_8
 print(result_4)
+
