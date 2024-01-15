@@ -1,26 +1,13 @@
-chislo_all = input("type number 1234: ")
+chislo_all = input("type some number: ")
+chislo_1 = 1000
+result = int(chislo_all) // chislo_1
+print(result)
 
+chislo_2 = 100
+result = int(chislo_all) // chislo_2 % 10
+print(result)
 
+chislo_3 = 10
+result = int(chislo_all) // chislo_2
+print(result)
 
-chislo_1 = 1234
-chislo_2 = 1234
-result_1 = chislo_1 // chislo_2
-print(result_1)
-
-
-chislo_3 = 1234
-chislo_4 = 11
-result_2 = chislo_3 % chislo_4
-print(result_2)
-
-
-chislo_5 = 1234
-chislo_6 = 411
-result_3 = chislo_5 // chislo_6
-print(result_3)
-
-
-chislo_7 = 1234
-chislo_8 = 10
-result_4 = chislo_7 % chislo_8
-print(result_4)
