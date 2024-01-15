@@ -8,6 +8,10 @@ result = int(chislo_all) // chislo_2 % 10
 print(result)
 
 chislo_3 = 10
-result = int(chislo_all) // chislo_3
+result = int(chislo_all) // chislo_3 % 10
+print(result)
+
+chislo_4 = 1
+result = int(chislo_all) // chislo_4 % 10
 print(result)
 
