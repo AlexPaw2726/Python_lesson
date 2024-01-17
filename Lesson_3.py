@@ -9,9 +9,9 @@ elif question_2 == "-":
 elif question_2 == "*":
     print(int(question_1) * int(question_3))
 elif question_2 == "//":
-    print(int(question_1) // int(question_3))
-else:
-    print("end")
+     print(int(question_1) // int(question_3))
+
+else: print("end")
 
 
 
