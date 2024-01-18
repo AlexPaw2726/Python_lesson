@@ -1,17 +1,27 @@
-question_1 = input("write number :  ")
+question_1 = int(input("write number :  "))
 question_2 = input("what action ?:  ")
-question_3 = input("write number :  ")
+question_3 = int(input("write number :  "))
 
 if question_2 == "+":
-    print(int(question_1) + int(question_3))
+    result = (question_1 + question_3)
+    print(result)
 elif question_2 == "-":
-    print(int(question_1) - int(question_3))
+    result = (question_1 - question_3)
+    print(result)
 elif question_2 == "*":
-    print(int(question_1) * int(question_3))
-elif question_2 == "//" and int(question_3) !=0:
-    print(int(question_1) // int(question_3))
-    print("delenie na nol")
-else:print("end")
+    result = (question_1 * question_3)
+    print(result)
+elif question_2 == "/":
+    if question_3 == 0:
+     print("error")
+else:
+    result = (question_1 / question_3)
+    print(result)
+
+
+
+
+
 
 
 
