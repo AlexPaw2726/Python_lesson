@@ -21,10 +21,11 @@
 value_list = [12, 3, 4, 10]
 print(len(value_list))
 num = 10
-value_list[-1] = num
-value_list.pop(-1)
-value_list.insert(0,num)
-print(value_list)
+if len(value_list) > 1:
+    value_list.pop()
+    value_list.insert(0,num)
+    print(value_list)
+else: print(value_list)
 
 
 
