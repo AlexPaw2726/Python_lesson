@@ -18,23 +18,44 @@
 #     result = (question_1 / question_3)
 #     print(result)
 
-value_list = [12, 3, 4, 10]
-print(len(value_list))
-num = 10
-if len(value_list) > 1:
-    value_list.pop()
-    value_list.insert(0,num)
-    print(value_list)
-else: print(value_list)
+# value_list = [12, 3, 4, 10]
+# print(len(value_list))
+# if len(value_list) >1:
+#     some_value = value_list.pop()
+#     value_list.insert(0,some_value)
+#     print(value_list)
+# else:
+#     print(value_list)
 
 
+# value_list = []
+# print(len(value_list))
+# if len(value_list) >1:
+#     some_value = value_list.pop()
+#     value_list.insert(0,some_value)
+#     print(value_list)
+# else:
+#     print(value_list)
 
 
+# value_list = [1]
+# print(len(value_list))
+# if len(value_list) >1:
+#     some_value = value_list.pop()
+#     value_list.insert(0,some_value)
+#     print(value_list)
+# else:
+#     print(value_list)
 
 
-
-
-
+# value_list = [12, 3, 4, 10, 8]
+# print(len(value_list))
+# if len(value_list) >1:
+#     some_value = value_list.pop()
+#     value_list.insert(0,some_value)
+#     print(value_list)
+# else:
+#     print(value_list)
 
 
 
