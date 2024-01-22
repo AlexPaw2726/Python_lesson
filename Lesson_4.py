@@ -1,20 +1,24 @@
-# value_list = [1,2,8,6,5]
-# print(value_list)
-# value_list.reverse()
-# print(value_list)
-#
-# value_list.sort()
-# print(value_list)
+# my_list = [0, 1, 0, 12, 3]
+# my_list.sort(reverse=True, key=bool)
+# print(my_list)
 
-# value_int = 0
-# is_true = True
-#
-# while is_true:
-#     value_int += 1
-#     print(value_int)
-#     if value_int > 3:
-#       break
 
-my_list = [0, 1, 0, 12, 3]
-my_list.sort(reverse=True, key=bool)
-print(my_list)
+# my_list = [0]
+# my_list.sort(reverse=True, key=bool)
+# print(my_list)
+
+# my_list = [1, 0, 13, 0, 0, 0, 5]
+# my_list.sort(reverse=True, key=bool)
+# print(my_list)
+
+
+# my_list = [9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
+# my_list.sort(reverse=True, key=bool)
+# print(my_list)
+
+
+
+
+
+
+
