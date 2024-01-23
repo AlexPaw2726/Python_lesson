@@ -16,6 +16,35 @@
 # my_list.sort(reverse=True, key=bool)
 # print(my_list)
 
+# list_1 = [0, 1, 7, 2, 4, 8]
+# list_2 = list_1[::2]
+# print(list_2)
+# result = sum(list_2 , start=0) * list_1[-1]
+# print(result)
+
+
+# list_1 = [1, 3, 5]
+# list_2 = list_1[::2]
+# print(list_2)
+# result = sum(list_2 , start=0) * list_1[-1]
+# print(result)
+
+# list_1 = [6]
+# list_2 = list_1[::2]
+# print(list_2)
+# result = sum(list_2 , start=0) * list_1[-1]
+# print(result)
+
+
+# list_1 = [0]
+# list_2 = list_1[::2]
+# print(list_2)
+# result = sum(list_2 , start=0) * list_1[-1]
+# print(result)
+
+
+
+
 
 
 
