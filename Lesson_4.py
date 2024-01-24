@@ -32,7 +32,6 @@
 # result = sum(list_2 , start=0) * list_1[-1]
 # print(result)
 #
-# #
 # list_1 = []
 # list_2 = list_1[::2]
 # result = sum(list_2 , start=0)
