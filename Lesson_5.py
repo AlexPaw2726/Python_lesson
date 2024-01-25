@@ -1,7 +1,7 @@
 
 
 # value = "_"
-# value_is_digit = value.isascii()
+# value_is_digit = value.isprintable()
 # print(value_is_digit)
 
 # value = "x"
@@ -14,11 +14,12 @@
 
 
 # value = "get value"
-# value_is_digit = value.isdecimal()
+# value_is_digit = value.isspace()
 # print(value_is_digit)
 
+
 # value = "get!value"
-# value_is_digit = value.isnumeric()
+# value_is_digit = value.isupper()
 # print(value_is_digit)
 
 # value = "some_super_puper_value"
@@ -26,11 +27,11 @@
 # print(value_is_digit)
 
 # value = "Get_value"
-# value_is_digit = value.islower()
+# value_is_digit = value.isupper()
 # print(value_is_digit)
 
 # value = "get_Value"
-# value_is_digit = value.isdecimal()
+# value_is_digit = value.islower()
 # print(value_is_digit)
 
 # value = "getValu"
