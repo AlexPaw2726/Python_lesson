@@ -46,3 +46,34 @@
 # value_is_digit = value.isprintable()
 # print(value_is_digit)
 
+
+
+question_1 = int(input("write number :  "))
+question_2 = input("what action ?:  ")
+question_3 = int(input("write number :  "))
+
+if question_2 == "+":
+    result = (question_1 + question_3)
+    print(result)
+while True:
+    question_4 = input("continue action ?:  ")
+
+    if question_4 == "yes" or question_4 =="y":
+        question_1 = int(input("write number :  "))
+        question_2 = input("what action ?:  ")
+        question_3 = int(input("write number :  "))
+        result = (question_1 + question_3)
+        print(result)
+
+    else:
+        print("Thank You")
+
+
+
+
+
+
+
+
+
+
