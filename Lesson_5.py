@@ -52,22 +52,26 @@ question_1 = int(input("write number :  "))
 question_2 = input("what action ?:  ")
 question_3 = int(input("write number :  "))
 
-if question_2 == "+":
-    result = (question_1 + question_3)
-    print(result)
 while True:
     question_4 = input("continue action ?:  ")
-
-    if question_4 == "yes" or question_4 =="y":
-        question_1 = int(input("write number :  "))
-        question_2 = input("what action ?:  ")
-        question_3 = int(input("write number :  "))
-        result = (question_1 + question_3)
-        print(result)
-
-    else:
-        print("Thank You")
-
+    if question_4 == "yes" or question_4 == "y":
+          if   question_2 == "+":
+             result = (question_1 + question_3)
+             print(result)
+          elif  question_2 == "-":
+              result = (question_1 - question_3)
+              print(result)
+          elif question_2 == "*":
+             result = (question_1 * question_3)
+             print(result)
+          elif  question_2 == "/":
+              result = (question_1 / question_3)
+              print(result)
+          if  question_3 == 0:
+              print("error")
+          else:
+              print("Thank You")
+              break
 
 
 
