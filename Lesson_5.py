@@ -1,11 +1,10 @@
-value = '_'
+value = "get"
 if value.isupper():
-    print(bool(value))
-elif value.isprintable():
     print(bool(value))
 elif value.islower():
     print(bool(value))
-else: print("none")
+
+else:print(bool(value))
 
 
 
