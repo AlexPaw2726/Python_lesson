@@ -1,10 +1,12 @@
-value = "get"
+value = "get money"
 if value.isupper():
     print(bool(value))
 elif value.islower():
     print(bool(value))
+elif value.isspace():
+    print(bool(value))
 
-else:print(bool(value))
+else: print("false")
 
 
 
