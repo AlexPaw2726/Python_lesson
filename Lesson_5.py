@@ -1,3 +1,30 @@
+value = '_'
+if value.isupper():
+    print(bool(value))
+elif value.isprintable():
+    print(bool(value))
+elif value.islower():
+    print(bool(value))
+else: print("none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # value = "_"
@@ -50,30 +77,30 @@
 
 
 
-while True:
-    question_1 = int(input("write number :  "))
-    question_2 = input("what action ?:  ")
-    question_3 = int(input("write number :  "))
-    if  question_2 == "+":
-        result = (question_1 + question_3)
-        print(result)
-    elif question_2 == "-":
-         result = (question_1 - question_3)
-         print(result)
-    elif question_2 == "*":
-         result = (question_1 * question_3)
-         print(result)
-    elif question_2 == "/":
-         result = (question_1 / question_3)
-         print(result)
-    if   question_3 == 0:
-         print("error")
-    question_4 = input("continue action ?:  ")
-    if   question_4 == "yes" or question_4 == "y":
-         continue
-    else:
-        print("Thank You")
-        break
+# while True:
+#     question_1 = int(input("write number :  "))
+#     question_2 = input("what action ?:  ")
+#     question_3 = int(input("write number :  "))
+#     if  question_2 == "+":
+#         result = (question_1 + question_3)
+#         print(result)
+#     elif question_2 == "-":
+#          result = (question_1 - question_3)
+#          print(result)
+#     elif question_2 == "*":
+#          result = (question_1 * question_3)
+#          print(result)
+#     elif question_2 == "/":
+#          result = (question_1 / question_3)
+#          print(result)
+#     if   question_3 == 0:
+#          print("error")
+#     question_4 = input("continue action ?:  ")
+#     if   question_4 == "yes" or question_4 == "y":
+#          continue
+#     else:
+#         print("Thank You")
+#         break
 
 
 
