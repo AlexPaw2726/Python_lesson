@@ -1,5 +1,4 @@
-import keyword
-import string
+
 # my_string = input("Enter your veriable:   ")
 # result = False
 #
