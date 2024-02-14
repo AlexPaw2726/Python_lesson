@@ -1,26 +1,18 @@
+text = "Hi! When I was One I had just begun When I was Two I was nearly new"
+words = ['i', 'was', 'three', 'near']
 
 
-
-def popular_words (text, words):
+def popular_words(txt, wrds):
     text_words = text.lower().split()
     popular_dict_words = {}
+
     for word in words:
         popular_dict_words.update({word: text_words.count(word)})
 
-        popular_dict_words = {word: text.lower().split().count(word) for word in words}
-        popular_dict_words = {word: text_words.count(word) for word in words}
-        popular_dict_words = {word: words.count(text_words) for word in words}
-        popular_dict_words = {word: 0 for word in words}
+        return popular_dict_words
+    print(popular_words(text,words))
 
-    for word in text_words:
-        if word in words:
-            popular_dict_words[word] += 1
-        return {word: text.lower().split().count(word) for word in words}
-
-    print(popular_words(text, words))
-
-
-assert popular_words('''Hi! When I was One I had just begun When I was Two I was nearly new ''',
+    assert popular_words('''Hi! When I was One I had just begun When I was Two I was nearly new ''',
                      ['i', 'was', 'three', 'near']) == { 'i': 4, 'was': 3, 'three': 0, 'near': 0 }, 'Test1'
 print('OK')
 
